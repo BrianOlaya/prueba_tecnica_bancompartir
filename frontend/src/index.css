@@ -1,0 +1,94 @@
+.bar{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 5%;
+  font-size: 100%; 
+  border-bottom-style: solid;
+  border-bottom-width: thin;
+  border-bottom-color: green;
+}
+.bar a{
+  text-decoration: none;
+  color: red;  
+}
+.dark {
+  -webkit-box-shadow: 0px 15px 10px 3px rgba(117,117,117,1);
+  -moz-box-shadow: 0px 15px 10px 3px rgba(117,117,117,1);
+  box-shadow: 0px 15px 10px 3px rgba(117,117,117,1);
+}
+.container-users{
+  height: 100vh;
+  padding: 10%;
+  text-align: center;
+}
+.link-users{
+  text-decoration: none;
+  width: 0%;
+}
+.link-users:hover{
+  text-decoration: none;
+}
+.link-users h1{
+  color: red;
+  border-style: solid;
+  border-color: red;
+  background-color: white;
+  margin:auto ;
+  padding: 5%;
+  border-radius: 7px;
+  font-weight: 300;
+}
+.link-users h1:hover{
+  background-color: red;
+  color: white;
+  margin:auto ;
+}
+.form-user{
+display: flex;
+justify-content: space-between;
+align-items: center;
+margin:auto 5%;
+border-bottom-style: solid;
+border-bottom-width: thin;
+border-bottom-color: red;
+}
+.content-form{
+  display: flex;
+  align-items: center;
+}
+.content-form input {
+  margin: 2px;
+}
+.btn-submit{
+  background-color: green;
+  color: white;
+  border-radius: 5px;
+  border-style: none;
+  padding: 7%;
+}
+.btn-submit:hover{
+  background-color: rgb(0, 98, 0);
+}
+.link-home{
+ font-size:xx-large;
+ margin: 1% 5%;
+ padding: 0.5% 1% ;
+ border-radius: 7px;
+ color: green;
+ border-style: solid;
+ border-color: green;
+ background-color: white;
+}
+.link-home:hover{
+  text-decoration: none;
+  background-color: green;
+  color: white;
+}
+.message-error{
+  background-color: red;
+  color: white;
+  width: 50%;
+  text-align: center;
+  margin: auto;
+}
